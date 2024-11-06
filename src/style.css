@@ -36,7 +36,8 @@ header h3 {
   line-height: 1.5;
   margin: 0;
 }
-a {
+
+header a {
   display: inline-block;
   border: 2px solid white;
   padding: 16px 32px;
@@ -47,12 +48,52 @@ a {
   letter-spacing: 3px;
 }
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 30px 40px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 0 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer-container p,
+ul {
+  opacity: 0.6;
+}
+
+ul li {
+  list-style: none;
+}
+
+.profile-links {
+  text-align: center;
+}
+
+.profile-links a {
+  color: seagreen;
+  cursor: pointer;
+}
+
+a:visited {
+  color: black;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 60px;
   }
   header h1 {
-    font-size: 46px;
+    font-size: 43px;
   }
 
   header h2 {
