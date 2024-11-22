@@ -98,6 +98,7 @@ footer a {
   padding-top: 0;
   padding-bottom: 20px;
 }
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../img/bg.jpg");
@@ -216,9 +217,9 @@ section.secondary {
   text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
-    padding: 60px;
+    padding: 60px 0;
   }
   header h1 {
     font-size: 43px;
@@ -230,5 +231,32 @@ section.secondary {
 
   header h3 {
     font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+
+  .maps {
+    width: 500px;
+    height: 300px;
+  }
+
+  .muscle {
+    display: block;
+    padding: 70px;
   }
 }
