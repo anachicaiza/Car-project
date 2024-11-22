@@ -12,6 +12,23 @@ a:visited {
   color: crimson;
 }
 
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background: blanchedalmond;
+}
+.card {
+  background: white;
+  padding: 30px;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -64,7 +81,7 @@ footer a {
 }
 
 .grid-3-col {
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 header {
@@ -147,6 +164,20 @@ main h3 {
   color: #272044;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+}
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -160,6 +191,14 @@ section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 900px) {
