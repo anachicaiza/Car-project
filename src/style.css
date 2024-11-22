@@ -26,7 +26,17 @@ a:visited {
 }
 .card {
   background: white;
-  padding: 30px;
+  padding: 30px 20px;
+}
+
+.embed {
+  display: block;
+  width: 100%;
+  padding: 10px 80px;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .container {
@@ -84,6 +94,10 @@ footer a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.gallery {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../img/bg.jpg");
@@ -169,6 +183,7 @@ main h4 {
   font-size: 24px;
   line-height: 1.5;
   color: #272044;
+  text-align: center;
 }
 
 main h5 {
